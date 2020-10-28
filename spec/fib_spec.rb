@@ -3,7 +3,9 @@ RSpec.describe Fib do
     expect(Fib::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  describe "ruby fib" do
+    it "calculates fibonacci" do
+      expect(Fib::fibonacci(10)).to eq(55)
+    end
   end
 end

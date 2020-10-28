@@ -1,6 +1,3 @@
 require "fib/version"
+require "fib/fibonacci"
 
-module Fib
-  class Error < StandardError; end
-  # Your code goes here...
-end
