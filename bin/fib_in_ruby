@@ -3,4 +3,5 @@
 require "bundler/setup"
 require "fib"
 
+puts "Fibonacci for 42"
 puts Fib::fibonacci(42)

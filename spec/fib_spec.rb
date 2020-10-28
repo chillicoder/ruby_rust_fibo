@@ -8,4 +8,10 @@ RSpec.describe Fib do
       expect(Fib::fibonacci(10)).to eq(55)
     end
   end
+
+  describe "rust fib" do
+    it "calculates fibonacci" do
+      expect(Fib::fib(10)).to eq(55)
+    end
+  end
 end
