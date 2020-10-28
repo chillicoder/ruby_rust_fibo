@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "fib"
+
+puts "Fibonacci for 42"
+puts Fib::fib(42)
